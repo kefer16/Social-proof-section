@@ -1,0 +1,36 @@
+@-webkit-keyframes toUp {
+    from {
+        transform: translateY(150px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes toUp {
+    from {
+        transform: translateY(150px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes toLeft {
+    from {
+        transform: translateX(150px);
+    }
+    to {
+        transform: translateX(none);
+    }
+}
+
+@keyframes toLeft {
+    from {
+        transform: translateX(150px);
+    }
+    to {
+        transform: translateX(none);
+    }
+}
+
