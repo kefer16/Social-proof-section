@@ -32,7 +32,7 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: top left, bottom right;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   body {
     overflow: visible;
     height: auto;
@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
   margin: 0 auto;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .content {
     width: 90%;
     height: auto;
@@ -63,7 +63,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .social {
     width: 100%;
     margin: 80px 0;
@@ -76,7 +76,7 @@ body {
   display: flex;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top {
     flex-direction: column;
     margin-bottom: 0;
@@ -85,7 +85,7 @@ body {
 .top .presentation {
   width: 40%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .presentation {
     width: 100%;
   }
@@ -96,7 +96,7 @@ body {
   margin-bottom: 10px;
   font-weight: 700;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .presentation h1 {
     font-size: 2.2em;
     text-align: center;
@@ -108,7 +108,7 @@ body {
   color: #937b92;
   line-height: 1.5em;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .presentation p {
     margin-top: 20px;
     font-size: 0.98em;
@@ -117,14 +117,13 @@ body {
 }
 .top .rateds {
   width: 60%;
-  height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-end;
   animation: toLeft 1s ease;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .rateds {
     width: 100%;
     margin: 2em 0;
@@ -133,6 +132,7 @@ body {
 }
 .top .rateds .rated {
   width: 60%;
+  min-width: 360px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -143,7 +143,7 @@ body {
   color: #502050;
   font-weight: 700;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .rateds .rated {
     width: 100%;
     height: 70px;
@@ -154,7 +154,7 @@ body {
 .top .rateds .rated.item1 {
   transform: translateX(-100px);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .rateds .rated.item1 {
     transform: translateX(0);
   }
@@ -162,7 +162,7 @@ body {
 .top .rateds .rated.item2 {
   transform: translateX(-50px);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .rateds .rated.item2 {
     transform: translateX(0);
   }
@@ -170,7 +170,7 @@ body {
 .top .rateds .rated span {
   margin-right: 20px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .top .rateds .rated span {
     margin: 0;
     letter-spacing: 0.5em;
@@ -183,7 +183,7 @@ body {
   gap: 2em;
   animation: toUp 1s ease;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .comments {
     grid-template-columns: 1fr;
     gap: 1em;
@@ -198,7 +198,7 @@ body {
 .comments .card.item2 {
   transform: translateY(20px);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .comments .card.item2 {
     transform: translateY(0);
   }
@@ -206,7 +206,7 @@ body {
 .comments .card.item3 {
   transform: translateY(40px);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .comments .card.item3 {
     transform: translateY(0);
   }

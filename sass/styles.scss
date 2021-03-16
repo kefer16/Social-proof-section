@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         overflow: visible;
         height: auto;
         background-image: url("../images/bg-pattern-top-mobile.svg"),
@@ -24,7 +24,7 @@ body {
     max-width: 1440px;
     min-height: 100vh;
     margin: 0 auto;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         width: 90%;
         height: auto;
     }
@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         width: 100%;
         margin: 80px 0;
         height: auto;
@@ -48,13 +48,13 @@ body {
     display: flex;
     margin-bottom: 30px;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         flex-direction: column;
         margin-bottom: 0;
     }
     .presentation {
         width: 40%;
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 1000px) {
             width: 100%;
         }
         h1 {
@@ -62,7 +62,7 @@ body {
             color: $Very_Dark_Magenta;
             margin-bottom: 10px;
             font-weight: 700;
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 1000px) {
                 font-size: 2.2em;
                 text-align: center;
             }
@@ -72,7 +72,7 @@ body {
             font-weight: 400;
             color: $Dark_Grayish_Magenta;
             line-height: 1.5em;
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 1000px) {
                 margin-top: 20px;
                 font-size: 0.98em;
                 text-align: center;
@@ -81,14 +81,15 @@ body {
     }
     .rateds {
         width: 60%;
-        height: 240px;
+        
+        // height: 240px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-end;
         -webkit-animation: toLeft 1s ease;
         animation: toLeft 1s ease;
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 1000px) {
             width: 100%;
 
             margin: 2em 0;
@@ -96,6 +97,7 @@ body {
         }
         .rated {
             width: 60%;
+            min-width: 360px;
             height: 50px;
             display: flex;
             align-items: center;
@@ -106,7 +108,7 @@ body {
             color: $Very_Dark_Magenta;
             font-weight: 700;
 
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 1000px) {
                 width: 100%;
                 height: 70px;
                 flex-direction: column;
@@ -115,7 +117,7 @@ body {
             &.item1 {
                 transform: translateX(-100px);
 
-                @media screen and (max-width: 700px) {
+                @media screen and (max-width: 1000px) {
                     transform: translateX(0);
                 }
             }
@@ -123,14 +125,14 @@ body {
             &.item2 {
                 transform: translateX(-50px);
 
-                @media screen and (max-width: 700px) {
+                @media screen and (max-width: 1000px) {
                     transform: translateX(0);
                 }
             }
 
             span {
                 margin-right: 20px;
-                @media screen and (max-width: 700px) {
+                @media screen and (max-width: 1000px) {
                     margin: 0;
                     letter-spacing: 0.5em;
                 }
@@ -145,7 +147,7 @@ body {
     gap: 2em;
     -webkit-animation: toUp 1s ease;
     animation: toUp 1s ease;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr;
 
         gap: 1em;
@@ -159,14 +161,14 @@ body {
         &.item2 {
             transform: translateY(20px);
 
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 1000px) {
                 transform: translateY(0);
             }
         }
         &.item3 {
             transform: translateY(40px);
 
-            @media screen and (max-width: 700px) {
+            @media screen and (max-width: 1000px) {
                 transform: translateY(0);
             }
         }
